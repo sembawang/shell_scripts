@@ -1,0 +1,13 @@
+# check client order log in J2EE server
+# to check both j2ee server 1 and j2ee server 2
+
+cd /ist/log/lt/stocktrader
+grep <trading acct id> *
+
+cd /ist/log/lt/iphone
+grep <trading acct id> *
+
+cd /ist/log/lt/trmodule
+grep <trading acct id> *
+
+
