@@ -1,6 +1,8 @@
 #!/usr/bin/ksh
 # check intraday data updated or not in mysql db
 # counter feed code - D05_R or O39_R or N21_R or K11_R or C6L_R
+# OS platform: IBM AIX 6, DB: MYSQL
+#
 
 if [ -f /tmp/intraday_chart_data.tmp ]
 then
