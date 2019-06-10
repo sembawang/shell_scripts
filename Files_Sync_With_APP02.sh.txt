@@ -1,0 +1,18 @@
+ 
+ ltcom3app01[slist]/syslv/scripts> more Files_Sync_With_APP02.sh
+##### Binary Files Sync with Passive Server (APP01 to APP02####)
+
+##### Binary Sync with Passive Server ####
+scp /ist/server/bin/*.* slist@ltcom3app02:/ist/server/bin/
+scp /ist/config/*.* slist@ltcom3app02:/ist/config/
+
+##### Binary Sync with Passive Server ####
+scp /ist/server/ini/*.* slist@ltcom3app02:/ist/server/ini/
+scp /ist/server/script/*.* slist@ltcom3app02:/ist/server/script
+scp /ist/config/*.* slist@ltcom3app02:/ist/config/
+scp /ist/shared/*.* slist@ltcom3app02:/ist/shared/
+scp /ist/shared/com/*.* slist@ltcom3app02:/ist/shared/com/
+scp /ist/shared/ebiz/*.* slist@ltcom3app02:/ist/shared/ebiz/
+scp /ist/shared/com/solutionslab/quotegiver/historical/chart/*.* slist@ltcom3app02:/ist/shared/com/solutionslab/quotegiver/historical/chart/
+
+
